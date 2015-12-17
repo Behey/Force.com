@@ -1,0 +1,11 @@
+trigger AccountTrigger on Account (before update) {
+    for(Account a:trigger.new){
+      Account oldAcc=Trigger.oldMap.get(a.ID);
+        if(a.Display_Alert__c!=oldAcc.Display_Alert__c){
+            
+        }else{
+            a.Display_Alert__c=true;
+  
+        }
+    }
+}
