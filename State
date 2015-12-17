@@ -1,0 +1,158 @@
+trigger state on Lead (before insert, before update) {
+  
+    
+            for (Lead l:Trigger.new){
+       if(l.State=='AK'){
+            l.State='Alaska';
+       }
+        if(l.State=='AL'){
+            l.State='Alabama';
+        }
+        if(l.State=='AZ'){
+            l.State='Arizona';
+        }
+        if(l.State=='AR'){
+            l.State='Arkansas';
+        }
+        if(l.State=='CA'){
+            l.State='California';
+        }
+        if(l.State=='CO'){
+            l.State='Colorado';
+        }
+        if(l.State=='CT'){
+            l.State='Connecticut';
+        }
+        if(l.State=='DE'){
+            l.State='Delaware';
+        }
+        if(l.State=='FL'){
+            l.State='Florida';
+        }
+        if(l.State=='GA'){
+            l.State='Georgia';
+        }
+        if(l.State=='HI'){
+            l.State='Hawaii';
+        }
+        if(l.State=='ID'){
+            l.State='Idaho';
+        }
+        if(l.State=='IL'){
+            l.State='Illinois';
+        }
+         if(l.State=='IN'){
+            l.State='Indiana';
+        }
+        if(l.State=='IA'){
+            l.State='Iowa';
+        }
+        if(l.State=='KS'){
+            l.State='Kansas';
+        }
+        if(l.State=='KY'){
+            l.State='Kentucky';
+        }
+        if(l.State=='LA'){
+            l.State='Louisiana';
+        }
+        if(l.State=='ME'){
+            l.State='Maine';
+        }
+        if(l.State=='MD'){
+            l.State='Maryland';
+        }
+         if(l.State=='MA'){
+            l.State='Massachusetts';
+        }
+         if(l.State=='MI'){
+            l.State='Michigan';
+        }
+        if(l.State=='MN'){
+            l.State='Minnesota';
+        }
+        if(l.State=='MS'){
+            l.State='Mississippi';
+        }
+        if(l.State=='MO'){
+            l.State='Missouri';
+        }
+        if(l.State=='MT'){
+            l.State='Montana';
+        }
+        if(l.State=='NE'){
+            l.State='Nebraska';
+        }
+        if(l.State=='NV'){
+            l.State='Nevada';
+        }
+        if(l.State=='NH'){
+            l.State='New Hampshire';
+        }
+        if(l.State=='NJ'){
+            l.State='New Jersey';
+        }
+         if(l.State=='NM'){
+            l.State='New Mexico';
+        }
+        if(l.State=='NY'){
+            l.State='New York';
+        }
+        if(l.State=='NC'){
+            l.State='North Carolina';
+        }
+        if(l.State=='ND'){
+            l.State='North Dakota';
+        }
+        if(l.State=='OH'){
+            l.State='Ohio';
+        }
+        if(l.State=='OK'){
+            l.State='Oklahoma';
+        }
+         if(l.State=='OR'){
+            l.State='Oregon';
+        }
+        if(l.State=='PA'){
+            l.State='Pennsylvania';
+        }
+        if(l.State=='RI'){
+            l.State='Rhode Island';
+        }
+        if(l.State=='SC'){
+            l.State='South Carolina';
+        }
+         if(l.State=='SD'){
+            l.State='South Dakota';
+        }
+        if(l.State=='TN'){
+            l.State='Tennessee';
+        }
+         if(l.State=='TX'){
+            l.State='Texas';
+        }
+         if(l.State=='UT'){
+            l.State='Utah';
+        }
+        if(l.State=='VT'){
+            l.State='Vermont';
+        }
+        if(l.State=='VA'){
+            l.State='Virginia';
+        }
+        if(l.State=='WA'){
+            l.State='Washington';
+        }
+        if(l.State=='WV'){
+            l.State='West Virginia';
+        }
+        if(l.State=='WI'){
+            l.State='Wisconsin';
+        }
+        if(l.State=='WY'){
+            l.State='Wyoming';
+        }
+
+    }
+    
+}
